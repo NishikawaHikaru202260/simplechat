@@ -16,7 +16,7 @@ def handler(event, context):
         }
 
         # あなたのFastAPIサーバーのURLを書く！（/predictにPOST）
-        api_url = "https://5864-34-82-199-167.ngrok-free.app"
+        api_url = "https://4b02-34-82-199-167.ngrok-free.app"
 
         data = json.dumps(payload).encode("utf-8")
         req = urllib.request.Request(
