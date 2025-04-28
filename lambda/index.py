@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-def lambda_handler(event, context):
+def handler(event, context):
     try:
         print("Received event:", json.dumps(event))
 
